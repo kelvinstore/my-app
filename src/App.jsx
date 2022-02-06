@@ -22,7 +22,7 @@ import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
 import logo from "Logo.png";
 import { TrophyFilled, GiftFilled, FireFilled } from "@ant-design/icons";
-const { Header, Footer } = Layout;
+const { Header } = Layout;
 
 const styles = {
   content: {
@@ -148,15 +148,7 @@ const App = ({ isServerInfo }) => {
             </Route>
           </Switch>
         </div>
-       </Router>
-          <Footer style={{ textAlign: "center" }}>
-              <Text style={{ display: "block" }}>
-                       🙋 This Dapp is built and maintained by KELVIN NGUGI 
-              </Text>
-              <Text style={{ display: "block" }}>
-                    📖 more is comimg for web3 and blockchain  technology
-              </Text>
-          </Footer>
+      </Router>
     </Layout>
   );
 };
