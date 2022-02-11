@@ -22,7 +22,9 @@ import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
 import logo from "Logo.png";
 import { TrophyFilled, GiftFilled, FireFilled } from "@ant-design/icons";
-const { Header } = Layout;
+import Footer from "./components/Footer";
+
+const { Header, } = Layout;
 
 const styles = {
   content: {
